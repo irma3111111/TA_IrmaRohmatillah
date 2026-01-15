@@ -5,3 +5,6 @@
 - Untuk Link Colab : ada di file Link Colab.txt
 - Untuk folder Models tidak bisa di upload ke github karena ukursan file > 25 Mb
 - Akses folder Models di : https://drive.google.com/drive/folders/11oN-bBRPJt7IZC0C6GcI7y0LAe86Cuar?usp=sharing
+
+  <img width="2229" height="562" alt="image" src="https://github.com/user-attachments/assets/a8e5786b-b0ab-4892-b836-334381a5f3f7" />
+
