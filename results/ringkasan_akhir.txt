@@ -1,0 +1,16 @@
+
+RINGKASAN PERBANDINGAN MODEL
+============================================================
+
+HASIL TEST:
+• Bi-LSTM:      0.7663 akurasi, 0.6071 F1, 1.4M param
+• IndoBERTweet: 0.9204 akurasi, 0.8677 F1, 110.6M param
+• Hybrid:       0.9090 akurasi, 0.8425 F1, 111.9M param
+
+TERBAIK:
+• Akurasi: IndoBERTweet (0.9204)
+• F1-Score: IndoBERTweet (0.8677)
+
+REKOMENDASI: IndoBERTweet
+   Akurasi tertinggi untuk teks Bahasa Indonesia
+

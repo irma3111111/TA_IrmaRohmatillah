@@ -1,0 +1,115 @@
+{
+    "model_name": "Bi-LSTM",
+    "architecture": {
+        "layers": [
+            "Embedding",
+            "SpatialDropout",
+            "Bi-LSTM1",
+            "Dropout",
+            "Bi-LSTM2",
+            "Dropout",
+            "Dense",
+            "Dropout",
+            "Output"
+        ],
+        "embedding_dim": 128,
+        "lstm_units": 64,
+        "dropout_rate": 0.3
+    },
+    "parameters": {
+        "total": 1424387,
+        "trainable": 1424387,
+        "non_trainable": 0,
+        "expected": 1424387,
+        "breakdown": {
+            "embedding": 1280000,
+            "bilstm1": 98816,
+            "bilstm2": 41216,
+            "dense1": 4160,
+            "output": 195,
+            "total": 1424387
+        }
+    },
+    "training_config": {
+        "max_words": 10000,
+        "max_len": 69,
+        "vocab_size": 12457,
+        "epochs": 50,
+        "batch_size": 32,
+        "class_weights": {
+            "0": 0.45031446540880504,
+            "1": 2.930422919508868,
+            "2": 2.2826780021253987
+        }
+    },
+    "performance": {
+        "best_val_accuracy": 0.7662875056266785,
+        "best_epoch": 8,
+        "final_train_accuracy": 0.985809326171875,
+        "final_val_accuracy": 0.7662875056266785,
+        "test_accuracy": 0.7507755756378174,
+        "test_loss": 1.2121118307113647,
+        "macro_f1": 0.6070514024067131,
+        "weighted_f1": 0.7582481522289786
+    },
+    "per_class_metrics": {
+        "negative": {
+            "precision": 0.8673469387755102,
+            "recall": 0.8310055865921788,
+            "f1": 0.8487874465049928,
+            "support": 716
+        },
+        "neutral": {
+            "precision": 0.3333333333333333,
+            "recall": 0.42727272727272725,
+            "f1": 0.3745019920318725,
+            "support": 110
+        },
+        "positive": {
+            "precision": 0.6,
+            "recall": 0.5957446808510638,
+            "f1": 0.597864768683274,
+            "support": 141
+        }
+    },
+    "error_analysis": {
+        "total_misclassified": 241,
+        "misclassification_rate": 0.24922440537745605,
+        "confusion_matrix": [
+            [
+                595,
+                80,
+                41
+            ],
+            [
+                48,
+                47,
+                15
+            ],
+            [
+                43,
+                14,
+                84
+            ]
+        ],
+        "confusion_matrix_norm": [
+            [
+                0.8310055865921788,
+                0.11173184357541899,
+                0.05726256983240224
+            ],
+            [
+                0.43636363636363634,
+                0.42727272727272725,
+                0.13636363636363635
+            ],
+            [
+                0.3049645390070922,
+                0.09929078014184398,
+                0.5957446808510638
+            ]
+        ]
+    },
+    "timestamp": "2026-01-14T09:20:19.582240",
+    "tensorflow_version": "2.19.0"
+}

@@ -1,0 +1,35 @@
+{
+  "tanggal": "2026-01-14 23:18",
+  "model_terbaik_akurasi": {
+    "nama": "IndoBERTweet",
+    "akurasi": 0.9203722854188211
+  },
+  "model_terbaik_f1": {
+    "nama": "IndoBERTweet",
+    "f1_score": 0.8677158249323135
+  },
+  "rekomendasi": {
+    "model": "IndoBERTweet",
+    "alasan": "Akurasi tertinggi untuk teks Bahasa Indonesia"
+  },
+  "detail_performa": {
+    "bilstm": {
+      "akurasi": 0.7662875056266785,
+      "f1_score": 0.6070514024067131,
+      "parameter": 1424387,
+      "parameter_format": "1.4M"
+    },
+    "indobertweet": {
+      "akurasi": 0.9203722854188211,
+      "f1_score": 0.8677158249323135,
+      "parameter": 110560515,
+      "parameter_format": "110.6M"
+    },
+    "hybrid": {
+      "akurasi": 0.9089968976215098,
+      "f1_score": 0.842500003573137,
+      "parameter": 111906307,
+      "parameter_format": "111.9M"
+    }
+  }
+}
