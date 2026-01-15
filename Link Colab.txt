@@ -1,0 +1,8 @@
+Scraping : https://colab.research.google.com/drive/1wmE9w1BGoZErEAXNz3TffPK6kHz9Kad8?usp=sharing
+Labeling: https://colab.research.google.com/drive/13o6EgN2Nn_f1K4YHHO3FJ3sILG8A-SmG?usp=sharing
+data preparation: https://colab.research.google.com/drive/137IWjgiy1NJOIJ7ReCiGX122ItMno1Ow?usp=sharing#scrollTo=0o7xxzjLb5ZY
+Bi-LSTM : https://colab.research.google.com/drive/1b9cfZY7GKpMmv9fiBnPzSBH-Ijatoz_B?usp=sharing#scrollTo=Ca1BqCOmfzdx
+IndoBertweet : https://colab.research.google.com/drive/12kQwHtt6Eid38_E8lg9PL5n0T568AExK?usp=sharing
+Hybrid : https://colab.research.google.com/drive/1fGoG9i6W83ni_lawS0WQZYlo79dLkS-k?usp=sharing
+Model Comparison : https://colab.research.google.com/drive/1pcIoM4fFw0tLrdH3_jKjJZE1mGp31P6C?usp=sharing
+
